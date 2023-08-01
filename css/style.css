@@ -1,0 +1,38 @@
+.nav{
+    background-color: #EEE7E7;
+    /* border-radius: 5px; */
+}
+a:hover{
+    color: #b1f33d;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    /* flex-direction: row; */
+}
+ul li{
+    padding-left: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.judul-main{
+    padding-top: 25px;
+    padding-left: 75px;
+    display: flex;
+}
+.btn-belanja{
+    background-color: #b1f33d;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-belanja:hover{
+    background-color: aqua;
+}
+.img-judul{
+    width: 50%;
+}
