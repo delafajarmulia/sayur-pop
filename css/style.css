@@ -1,5 +1,5 @@
 .nav{
-    background-color: #EEE7E7;
+    /* background-color: #EEE7E7; */
     /* border-radius: 5px; */
 }
 a:hover{
@@ -12,17 +12,21 @@ a{
 .nav ul{
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
     /* flex-direction: row; */
 }
 ul li{
-    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 .judul-main{
-    padding-top: 25px;
-    padding-left: 75px;
+    padding-top: 100px;
+    padding-left: 200px;
     display: flex;
+    justify-content: space-between;
+    background-color: #EEE7E7;
+    padding-bottom: 100px;
 }
 .btn-belanja{
     background-color: #b1f33d;
