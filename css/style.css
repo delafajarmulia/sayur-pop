@@ -1,6 +1,8 @@
-.nav{
-    /* background-color: #EEE7E7; */
-    /* border-radius: 5px; */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+    width: auto;
 }
 a:hover{
     color: #b1f33d;
@@ -21,22 +23,90 @@ ul li{
     padding-bottom: 25px;
 }
 .judul-main{
-    padding-top: 100px;
+    padding: 100px;
     padding-left: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #EEE7E7;
-    padding-bottom: 100px;
+    /* padding-left: auto;
+    padding-right: auto; */
+    /* margin-right: auto; */
 }
-.btn-belanja{
-    background-color: #b1f33d;
+.title{
+    padding-right: 250px;
+}
+.btn-belanja-title{
+    background-color: #6C932E;
     padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
     border-radius: 5px;
     border: none;
 }
-.btn-belanja:hover{
+.btn-belanja-title:hover{
     background-color: aqua;
 }
 .img-judul{
-    width: 50%;
+    width: 100%;
+}
+.card-product{
+    background-color: #666666;
+}
+.card-product h2{
+    text-align: center;
+}
+.img-product{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.pelayanan{
+    background-color: #222222;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+}
+.btn-pelayanan{
+    background-color: #423E3E;
+    color: #FFFFFF;
+    width: 250px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.card-belanja{
+    display: flex;
+    background-color: #f7d7d7;
+    gap: 50px;
+}
+.div-belanja{
+    width: 270px;
+    height: 300px;
+    background-color: white;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.basa-basi{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-belanja-basa-basi{
+    background-color: #6C932E;
+    height: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 5px;
+    border: none;
+}
+footer{
+    background-color: #222222;
+    height: 75px;
 }

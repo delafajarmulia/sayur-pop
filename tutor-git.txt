@@ -1,0 +1,5 @@
+git
+
+meng clone repository
+-> buat folder, lalu klik kanan, show more options (jika window 11), git bash here
+-> git clone https://github.com/delafajarmulia/tugas-kelompok-sayur-pop
