@@ -1,0 +1,5 @@
+HTML (cari definisi) dan beberapa tag berikut:
+head, body, link(untuk menuju css), div, nav, footer, list(ul, ol, li), a (dgn  atribut href), h1-h6, p, del, button, img, title
+
+CSS (cari definisi) dan atribut berikut :
+hover, background-color, color, padding&margin(top, bottom, left, right), box shadow, display, justify-content, width, height, text-align, gap, border-radius, font-family, text-decoration

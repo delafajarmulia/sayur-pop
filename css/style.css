@@ -7,6 +7,7 @@ body{
 .container{
     width: auto;
     background-color: #F2F1F1;
+    margin: 0px;
 }
 a:hover{
     color: #b1f33d;
@@ -35,6 +36,7 @@ ul li{
     justify-content: space-around;
     background-color: #F2F1F1;
     margin-bottom: 0px;
+    height: 100vh;
 }
 .title{
     padding-right: 250px;
@@ -74,6 +76,9 @@ ul li{
 .many-img{
     border-radius: 7px;
     box-shadow: 10px 10px 10px black;
+}
+.many-img:hover{
+    box-shadow: 10px 10px 10px #666666;
 }
 .pelayanan-back{
     background-color: #222222;

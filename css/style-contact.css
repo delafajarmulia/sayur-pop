@@ -3,7 +3,7 @@
 }
 .container{
     width: auto;
-    height: 500px;
+    height: 100vh;
     background-color: #F2F1F1;
 }
 .container h1 {
@@ -14,8 +14,6 @@
 }
 .kotak{
     width: 1000px;
-    /* height: 170px; */
-    
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -23,6 +21,7 @@
     gap: 50px;
     background-color: #FFFFFF;
     padding: 50px;
+    margin-bottom: 100px;
 }
 div{
     background-color: #F2F1F1;
