@@ -1,5 +1,17 @@
-git
+tutor git
 
-meng clone repository
+meng clone repository :
 -> buat folder, lalu klik kanan, show more options (jika window 11), git bash here
 -> git clone https://github.com/delafajarmulia/tugas-kelompok-sayur-pop
+
+push data ke github:
+-> click kanan pada folder utama
+-> git bash here
+-> git pull (untuk jaga" kalau ada update an data)
+-> git status (opsional, gpp kalo masih merah)
+-> git add .
+-> git status (opsional, pastikan udh warna hijau)
+-> git commit -m "pesan commit"
+-> git push
+
+NB: kalau belum bisa ulangi saja step"nya, keep calm, jangan panik hehe :v

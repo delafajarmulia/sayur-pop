@@ -1,5 +1,5 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: auto;
@@ -27,7 +27,7 @@ ul li{
     padding-left: 200px;
     display: flex;
     justify-content: space-around;
-    background-color: #EEE7E7;
+    background-color: #F2F1F1;
     /* padding-left: auto;
     padding-right: auto; */
     /* margin-right: auto; */
@@ -37,6 +37,7 @@ ul li{
 }
 .btn-belanja-title{
     background-color: #6C932E;
+    color: #FFFFFF;
     padding: 10px;
     padding-left: 35px;
     padding-right: 35px;
@@ -44,69 +45,117 @@ ul li{
     border: none;
 }
 .btn-belanja-title:hover{
-    background-color: aqua;
+    background-color: #A0D14F;
 }
 .img-judul{
     width: 100%;
 }
 .card-product{
     background-color: #666666;
+    margin-top: 0px;
 }
 .card-product h2{
     text-align: center;
+    padding-top: 30px;
 }
 .img-product{
     display: flex;
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
-.pelayanan{
+.pelayanan-back{
     background-color: #222222;
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
+    justify-content: center;
+    gap: 30px;
 }
-.btn-pelayanan{
+.div-pelayanan{
     background-color: #423E3E;
     color: #FFFFFF;
-    width: 250px;
-    height: 150px;
-    margin-left: auto;
-    margin-right: auto;
+    width:700px;
+    height: 100px;
+    /* margin-left: auto;
+    margin-right: auto; */
     border: none;
+    border-radius: 5px;
+}
+.div-pelayanan:hover{
+    background-color: #1E1E1D;
+}
+.div-pelayanan h3{
+    text-align: center;
+    padding-top: 20px;
+}
+.div-pelayanan p{
+    text-align: center;
+}
+.pelayanan{
+    gap: 10px;
 }
 .card-belanja{
-    display: flex;
-    background-color: #f7d7d7;
-    gap: 50px;
+    /* display: flex; */
+    background-color: #D9D9D9;
+    padding: 30px;
+    /* gap: 50px; */
 }
 .div-belanja{
-    width: 270px;
-    height: 300px;
+    width: 90%;
+    height: auto;
     background-color: white;
     border-radius: 7px;
     padding: 20px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    /* pa-bottom: 50px; */
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.div-belanja:hover{
+    background-color: #C6E494;
+}
+.div-belanja-paling-atas{
+    margin-top: 50px;
+}
+.div-belanja-paling-bawah{
+    margin-bottom: 50px;
 }
 .basa-basi{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #F2F1F1;
 }
 .btn-belanja-basa-basi{
     background-color: #6C932E;
-    height: auto;
+    color: #FFFFFF;
+    height: 45px;
     padding-left: 35px;
     padding-right: 35px;
     border-radius: 5px;
     border: none;
+    margin-top: 10px;
+}
+.btn-belanja-basa-basi:hover{
+    background-color: #A0D14F;
 }
 footer{
-    background-color: #222222;
-    height: 75px;
+    background-color: #F2F1F1;
+    height: 100px;
+    margin-top: 0px;
+}
+/* hr{
+    padding-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px; 
+} */
+footer p{
+    padding-bottom: 0px;
+    padding-left: 30px;
+    text-align: center;
 }

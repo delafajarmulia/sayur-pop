@@ -3,13 +3,14 @@
 }
 .container{
     width: auto;
-    height: auto;
-    background-color: #FFFFFF;
+    height: 500px;
+    background-color: #F2F1F1;
 }
 .container h1 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
+    color: #6C932E;
 }
 .kotak{
     width: 1000px;
@@ -20,14 +21,17 @@
     display: flex;
     justify-content: space-around;
     gap: 50px;
-    background-color: #D9D9D9;
+    background-color: #FFFFFF;
     padding: 50px;
 }
 div{
-    background-color: #FFFFFF;
+    background-color: #F2F1F1;
     width: 250px;
     box-shadow: blue;
     border-radius: 3px;
+}
+.fx:hover{
+    background-color: #C6E494;
 }
 div p{
     text-align: center;

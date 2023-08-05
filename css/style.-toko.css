@@ -1,0 +1,60 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F2F1F1;
+}
+h1{
+    text-align: center;
+    color: #6C932E;
+}
+.card-product{
+    background-color: #FFFFFF;
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.card-product:hover{
+    background-color: #C6E494;
+}
+.name-price{
+    background-color: #FFFFFF;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+h3{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+p{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+del{
+    background-color: #FFFFFF;
+    color: #949494;
+}
+h3:hover{
+    background-color: #C6E494;
+}
+p:hover{
+    background-color: #C6E494;
+}
+del:hover{
+    background-color: #C6E494;
+}
+footer{
+    background-color: #F2F1F1;
+}
+/* footer hr{
+    padding-top: 30px;
+} */
+footer p{
+    background-color: #F2F1F1;
+    padding-left: 30px;
+}
