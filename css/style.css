@@ -18,7 +18,11 @@ a{
 }
 .nav{
     margin-top: 0px;
+    /* background-color: #6C932E; */
 }
+/* i{
+    padding-top: 100px;
+} */
 .nav ul{
     list-style-type: none;
     display: flex;
@@ -36,7 +40,7 @@ ul li{
     justify-content: space-around;
     background-color: #F2F1F1;
     margin-bottom: 0px;
-    height: 100vh;
+    height: 70vh;
 }
 .title{
     padding-right: 250px;
